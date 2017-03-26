@@ -27,3 +27,5 @@
 # Create incompatabilities between different
 # systems (Windows, Mac, Linux)
 /Gemfile.lock
+Gemfile.lock
+*Gemfile.lock*
