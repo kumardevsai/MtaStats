@@ -1,0 +1,25 @@
+{
+  "name": "mtastats",
+  "version": "1.0.0",
+  "description": "Mta stats front-end packages",
+  "main": "index.js",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "uglify-js": "^2.8.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zebaslam/MtaStats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zebaslam/MtaStats/issues"
+  },
+  "homepage": "https://github.com/zebaslam/MtaStats#readme"
+}
