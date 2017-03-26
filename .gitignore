@@ -19,3 +19,11 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore IDE related configuration settings
+.idea/
+
+# Ignore the Gemfile.lock because it may
+# Create incompatabilities between different
+# systems (Windows, Mac, Linux)
+Gemfile.lock
