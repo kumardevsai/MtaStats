@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -23,8 +23,10 @@ gem 'puma', '~> 3.0'
 # gem 'capistrano-rails', group: :development
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'rack-cors'
 gem 'active_model_serializers'
+gem 'rack-cors'
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
